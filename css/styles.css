@@ -1,15 +1,14 @@
 body {
   margin-top: 0px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin-left: auto;
   margin-right: auto;
   background-color: #e6e4d9;
-  background-image: url(../images/digital-education.jpg);
-  background-repeat: repeat;
+  background-image: url('images/pattern.png');
 }
 
 #mainheader {
-  background-color: burlywood;
+  background-color: #a593c2;
 }
 
 #leftmenu {
@@ -52,19 +51,10 @@ figure {
   display: block;
 }
 
-nav > ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-nav > ul > li {
-  float: left;
-}
-
-nav > ul > li a {
-  display: inline-block;
-  list-style: none;
-  text-align: center;
-  margin: 0 5px  0 5px;
+table,
+td,
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
 }
